@@ -1,0 +1,27 @@
+repository: https://github.com/Y-Lab/Y-System-Error-Page-Generator
+
+timezone: Asia/Shanghai
+lang: zh_CN
+
+title: Y-System Error Page Generator
+description: Generator for Y-System Website Error Pages
+keywords: Y-System, Error Pages, Generator
+url: https://y-english.org
+
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: 云英语
+organization_url: https://y-english.org
+
+contact: dev[at]y-english[dot]org
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor

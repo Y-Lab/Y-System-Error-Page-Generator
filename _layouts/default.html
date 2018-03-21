@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include meta.html %}
+</head>
+<body>
+    <!-- Page Contents -->
+    <div class="ui inverted vertical masthead center aligned segment">
+        {% include header.html %}
+        <div class="ui text container">
+            <h1 class="ui inverted header">{{ page.title }}</h1>
+            <h2 class="ui inverted header">{{ page.message }}</h2>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+</html>

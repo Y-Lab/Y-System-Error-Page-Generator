@@ -1,0 +1,23 @@
+<!-- jQuery -->
+<script type="text/javascript" src="//static.y-english.org/assets/basic/js/jquery.min.js"></script>
+
+<!-- Semantic UI JS -->
+<script type="text/javascript" src="//static.y-english.org/assets/ui/semantic.min.js"></script>
+
+<!-- Customized JS -->
+<script type="text/javascript">
+    // popup wechat qrcode
+    $('.popup-item-click').popup({
+        on: 'click'
+    });
+
+    // footer copyright
+    $('#copyright').html(function () {
+        return '<i class="copyright outline icon"></i> 2011-' +  new Date().getFullYear() + ' 云英语 版权所有';
+    });
+
+    // footer contacts
+    $('#contacts-footer-link').click(function () {
+        $('#contacts-modal').modal('show');
+    });
+</script>
