@@ -1,2 +1,2 @@
-# Y-System-Error-Page-Generator
-Y-System Website Error Page Generator
+# Y-System Error Page Generator
+Generator for Y-System Website Error Pages
